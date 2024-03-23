@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/gt-america-trial">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1/css/boxicons.min.css">
+</head>
+<body>
+    <header class="bg-black text-white">
+        <nav class="container max-auto py-5 px-2.5">
+            <div class="flex justify-between items-center">
+                <div class="flex items-center space-x-2">
+                    <img src="img/logo-text.png" alt="Logo" class="h-7 w-auto lg:h-9"/>
+                    <spam>|</spam>
+                    <a href="#" class="text-xl lg:text-2xl">Help Center</a>
+                </div>
+                <div class="flex items-center space-x-1.5 lg:hidden">
+                    <i class="bx bx-search text-2xl"></i>
+                    <i class="bx bx-menu text-3xl"></i>
+                </div>
+                <div class="hidden lg:flex space-x-4 text-xl font-semibold">
+                    <button type="button" class="px-6 py-2 border-2 rounded-md">
+                        Submit a request
+                    </button>
+                    <button type="button" class="px-6 py-2 bg-[#4C5FD5] border-2 rounded-md">
+                        Sign in
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="bg-[#dadbf1]">
+            <div class="container mx-auto h-96 flex flex-col justify-center items-center">
+                <h1 class="text-4xl md-8 tracking-tight">How can we help?</h1>
+                <label for="search" class="relative">
+                    <input type="text" name="search" id="search" placeholder="search" class="px-4 py-3 w-72 border border-black rounded-sm">
+                    <i class="bx bx-right-arrow-alt text-3xl absolute top-2.5 right-2"></i>
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <img src="img/abstract.png" alt="item 1">
+            </div>
+            <div>
+                <h3>Using Abstract</h3>
+                <p>
+                    Abstract lets you manage, version, and document your designs in one place.
+                </p>
+                <button>
+                    <span>Learn More</span>
+                    <i class="bx bx-right-arrow-alt "></i>
+                </button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
